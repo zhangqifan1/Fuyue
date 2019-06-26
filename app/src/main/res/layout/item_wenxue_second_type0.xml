@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#2ACBD4"
+    >
+    <TextView  android:layout_width="match_parent"
+        android:layout_height="@dimen/p100"
+        android:textSize="24sp"
+        android:textStyle="italic"
+        android:id="@+id/item_wenxue_title_second"
+        android:paddingLeft="@dimen/p100"
+        android:background="?android:attr/selectableItemBackground"
+        android:clickable="true"/>
+
+</LinearLayout>

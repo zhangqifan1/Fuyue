@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".ui.detail.chuangzuo.Image1">
+
+
+    <TextView
+        android:id="@+id/tv0"
+        android:textSize="28sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#f0f"
+        android:text="测试文本" />
+
+    <TextView
+        android:background="#f0f0"
+        android:layout_marginTop="@dimen/p40"
+        android:id="@+id/tv1"
+        android:textSize="28sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="测试文本" />
+
+    <TextView
+        android:background="#f00f"
+        android:layout_marginTop="@dimen/p40"
+        android:id="@+id/tv2"
+        android:textSize="28sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="测试文本" />v
+
+    <TextView
+        android:background="#f0000f"
+        android:layout_marginTop="@dimen/p40"
+        android:id="@+id/tv3"
+        android:textSize="28sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="测试文本" />
+
+    <TextView
+        android:background="#f0f00f"
+        android:layout_marginTop="@dimen/p40"
+        android:id="@+id/tv4"
+        android:textSize="28sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="测试文本" />
+
+
+</LinearLayout>

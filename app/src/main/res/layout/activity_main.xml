@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/draw"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true">
+
+        <LinearLayout
+            android:id="@+id/right"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <View
+                android:id="@+id/view_statusbar"
+                android:background="@color/colorPrimary"
+                android:layout_width="match_parent"
+                android:layout_height="0dp" />
+
+            <android.support.design.widget.CoordinatorLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fitsSystemWindows="true">
+
+
+                <android.support.design.widget.AppBarLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:theme="@style/AppTheme.AppBarOverlay">
+
+                    <android.support.v7.widget.Toolbar
+                        android:id="@+id/mytoolbar"
+                        android:layout_width="match_parent"
+                        android:layout_height="?actionBarSize"
+                        android:background="@color/colorPrimary"
+                        android:elevation="4dp"
+                        app:contentInsetStart="@dimen/p60"
+                        app:layout_scrollFlags="scroll|enterAlways|snap"
+                        app:logo="@drawable/panda"
+                        app:popupTheme="@style/AppTheme.PopupOverlay"
+                        app:subtitle="     Subtitle_the more get"
+                        app:subtitleTextAppearance="@style/Toolbar.Subtitle"
+                        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+                        app:title="     Title_The More Try"
+                        app:titleTextAppearance="@style/Toolbar.Title" />
+
+
+                </android.support.design.widget.AppBarLayout>
+
+                <android.support.v4.view.ViewPager
+                    android:id="@+id/viewPager"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+
+                <!--appbar_scrolling_view_behavior-->
+                <com.ittianyu.bottomnavigationviewex.BottomNavigationViewEx
+                    android:id="@+id/bnve"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_gravity="bottom"
+                    android:background="@color/colorPrimary"
+                    app:itemIconTint="@color/selector_item_gray_color"
+                    app:itemTextColor="@color/selector_item_gray_color"
+                    app:layout_behavior="@string/BottomSheetBehavior_Demo"
+                    app:menu="@menu/menu_index" />
+
+            </android.support.design.widget.CoordinatorLayout>
+        </LinearLayout>
+
+        <include
+            android:id="@+id/main_include"
+            layout="@layout/main_drawer_content" />
+
+
+    </android.support.v4.widget.DrawerLayout>
+</layout>

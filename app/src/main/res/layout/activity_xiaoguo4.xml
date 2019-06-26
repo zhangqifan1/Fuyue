@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="true"
+    android:clipToPadding="true"
+    tools:context=".ui.detail.yinyue.Xiaoguo4">
+
+    <FrameLayout
+        android:id="@+id/fram"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/p300">
+
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/guide_bg"/>
+
+    </FrameLayout>
+
+    <com.as.fuyue.customview.NestedTouchScrollingLayout
+        android:id="@+id/wrapper"
+        android:layout_marginTop="@dimen/p320"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_xiaoguo4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+    </com.as.fuyue.customview.NestedTouchScrollingLayout>
+</FrameLayout>

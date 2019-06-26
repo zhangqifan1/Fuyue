@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/wenxue"
+        android:checked="true"
+        android:icon="@drawable/wenxue"
+        android:title="文学" />
+    <item
+        android:id="@+id/yinyue"
+        android:icon="@drawable/yinyue"
+        android:title="音乐" />
+
+    <item
+        android:id="@+id/chuangzuo"
+        android:icon="@drawable/chuangzuo"
+        android:title="创作" />
+</menu>

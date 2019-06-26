@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".ui.detail.yinyue.Xiaoguo3">
+
+    <ImageView
+        android:id="@+id/image_top"
+        android:layout_width="@dimen/p300"
+        android:layout_height="@dimen/p600"
+        android:src="@drawable/guide_bg" />
+
+    <com.github.ksoichiro.android.observablescrollview.ObservableScrollView
+        android:id="@+id/observer_scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_gravity="center_horizontal"
+            android:ems="1"
+            android:text="无限啦啦啦啦神神神无限啦啦啦啦神神神无限啦啦啦啦神神神无限啦啦啦啦神神神无限啦啦啦啦神神神无限啦啦啦啦神神神无限啦啦啦啦神神神无限啦啦啦啦神神神无限啦啦啦啦神神神无限啦啦啦啦神神神"
+            android:textSize="50sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </com.github.ksoichiro.android.observablescrollview.ObservableScrollView>
+
+</LinearLayout>

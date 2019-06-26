@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name"> 赋 乐 </string>
+    <string name="BottomSheetBehavior_Demo">com.as.fuyue.behavior.BottomSheetBehavior_Demo</string>
+    <string name="BottomViewBehavior">com.as.fuyue.behavior.BottomViewBehavior</string>
+
+
+</resources>

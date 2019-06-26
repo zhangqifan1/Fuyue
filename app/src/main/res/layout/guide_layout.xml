@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <yanzhikai.textpath.AsyncTextPathView
+            android:id="@+id/atpv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center_horizontal"
+            app:autoStart="false"
+            app:duration="2000"
+            app:paintStrokeColor="@color/dark1black"
+            app:pathStrokeWidth="@dimen/p4"
+            app:showPainter="false"
+            app:textInCenter="true"
+            app:textSize="34sp" />
+
+        <ImageView
+            android:id="@+id/guide_image"
+            android:layout_width="@dimen/p192"
+            android:layout_height="@dimen/p192"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/p300"
+            android:src="@drawable/panda" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="@dimen/p350"
+            android:layout_marginBottom="@dimen/p150"
+            android:text="欢迎来到 德莱联盟!"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="italic" />
+
+    </RelativeLayout>
+
+
+</layout>
